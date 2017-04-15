@@ -4,7 +4,7 @@
   "description": "deepstream server backend",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js"
+    "start": "deepstream start"
   },
   "author": "neil",
   "license": "ISC",
@@ -17,5 +17,8 @@
     "babel-preset-es2015-node5": "*",
     "babel-preset-stage-3": "*",
     "babel-register": "*"
+  },
+  "engines": {
+    "node": "4.4.7"
   }
 }
