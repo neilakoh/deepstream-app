@@ -4,7 +4,7 @@ const C = DeepstreamServer.constants;
 
 const server = new DeepstreamServer({
   host: 'deepstream-app.herokuapp.com',
-  port: port
+  port: '${PORT}'
 })
 
 server.start()
