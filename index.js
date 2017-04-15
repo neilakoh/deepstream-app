@@ -3,7 +3,7 @@ import DeepstreamServer from 'deepstream.io';
 const C = DeepstreamServer.constants;
 
 const server = new DeepstreamServer({
-  host: 'deepstream-test.herokuapp.com',
+  host: 'ddeepstream-app.herokuapp.com',
   port: 80
 })
 
