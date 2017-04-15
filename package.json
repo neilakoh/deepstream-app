@@ -4,7 +4,7 @@
   "description": "deepstream server backend",
   "main": "index.js",
   "scripts": {
-    "start": "deepstream start"
+    "start": "babel-node index.js"
   },
   "author": "neil",
   "license": "ISC",
