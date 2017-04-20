@@ -73,10 +73,10 @@ plugins:
   #     host: localhost
   #     port: 28015
   storage:
-  name: mongodb
-  options:
-    connectionString: mongodb://deepstreamapp:neil1250978@ds161410.mlab.com:61410/deepstream-app
-    splitChar: "/"
+    name: mongodb
+    options:
+      connectionString: mongodb://deepstreamapp:neil1250978@ds161410.mlab.com:61410/deepstream-app
+      splitChar: "/"
 
 # Storage options
 # a RegExp that matches recordNames. If it matches, the record's data won't be stored in the db
