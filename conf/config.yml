@@ -75,7 +75,7 @@ plugins:
   storage:
   name: mongodb
   options:
-    connectionString: ${MONGODB_URI}
+    connectionString: ${MONGO_URL}
     database: deepstream-app
     defaultTable: users
     splitChar: "/"
